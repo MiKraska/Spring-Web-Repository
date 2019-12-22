@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-@RequestMapping("/v1")
+@RequestMapping("/v1/task")
 public class TaskController {
 
     @RequestMapping(method = RequestMethod.GET, value = "getTasks")
